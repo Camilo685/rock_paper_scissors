@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="options">
+            <button id="rock"><img src="./rock.jpg" alt="Rock"></button>
+            <button id="paper"><img src="./paper.jpg" alt="Paper"></button>
+            <button id="scissor"><img src="./scissor.jpg" alt="Scissor"></button>
+        </div>
+        <div class="results-container">
+            <h1>Results</h1>
+            <p>Waiting for selection...</p>
+            <div class="results">
+                <div class="win-header">
+                    <h2>Wins</h2>
+                    <p>0</p>
+                </div>
+                <div class="tie-header">
+                    <h2>Ties</h2>
+                    <p>0</p>
+                </div>
+                <div class="lose-header">
+                    <h2>Losses</h2>
+                    <p>0</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
