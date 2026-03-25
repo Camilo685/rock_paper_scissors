@@ -1,2 +1,2 @@
 # rock_paper_scissors
-Javascript console project
+UI for the rock, paper, scissors web game
